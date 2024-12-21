@@ -73,6 +73,12 @@ Install *hyper.js* which replace your default terminal with an styled terminal a
 to see the alias. Test it
 ![](./aliases.png)
 
+## Zsh Syntax Highlightting
+Hightlights what you type in terminal
+- Go to [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting?tab=readme-ov-file) and look at INSTALL.md 
+- Because you have already install oh-my-zsh you only need to clone and activate the plugin in `~/.zshrc`. Restart zsh.
+![](./images/color-command.png)
+
 
 
 
