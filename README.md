@@ -9,12 +9,11 @@ List of the steps for setup my mac
 4. Fnm
 5. NodeJs
 6. Svelte
-7. Astro
-8. Docker (optional)
-9. miniconda (manage multiple versions of Python)
-9. Python
-10. R Studio
-
+7. miniconda (manage multiple versions of Python)
+8. Python
+9. R Studio
+10. Docker (optional)
+11. Themes and highlighting for terminal
 
 ## File Structure
 1. File structure
@@ -72,6 +71,12 @@ Install *hyper.js* which replace your default terminal with an styled terminal a
 - Go to [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
 to see the alias. Test it
 ![](./aliases.png)
+
+- If you migrate from bash to zsh, Add the following to your .zshrc profile:
+```zsh
+eval "$(fnm env --use-on-cd --shell zsh)"
+```
+
 
 ## Zsh Syntax Highlightting
 Hightlights what you type in terminal
